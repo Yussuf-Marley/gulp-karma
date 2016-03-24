@@ -1,0 +1,1 @@
+var x=function(e){this.i=0,this.j=e};x.prototype.getj=function(){return this.j};var x1=new x(1),x2=new x(2);document.getElementById("demo1").innerHTML=x1.getj(),document.getElementById("demo2").innerHTML=x2.getj();

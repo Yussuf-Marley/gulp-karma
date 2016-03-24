@@ -1,0 +1,1 @@
+function showName(e,n){function r(){return t+e+" "+n}var t="My full name is ";return r()}document.getElementById("try").innerHTML=showName("Joseph","Marley");
