@@ -3,7 +3,7 @@
 // *
 // * @author: Joseph Mahugu <jmahugu@cytonn.com>
 // *
-// * Project: Closure in JS
+// * Project: Gulp Usage
 // *
 
 var gulp = require('gulp'),
@@ -30,7 +30,7 @@ gulp.task('watch', function(){
 });
 
 //The default gulp task can be called to execute all the tasks in the gulpfile.js
-gulp.task('default', ['scripts', 'sample']);
+gulp.task('default', ['script', 'sample']);
 
 
 
